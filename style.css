@@ -1,0 +1,87 @@
+.upper{
+    background-color: #36dfc5;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 10px 8px #888888;
+    background-color: #101615;
+  
+}
+.whole{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+   width: 400px;
+    margin-top: 50px;
+   
+ 
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.lower{
+    background-color: crimson;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+ 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+input{
+    background: transparent;
+    border: 1px grey solid;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.068);
+    border: none;
+    color: black;
+    outline: none;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    color: white;
+    
+}
+input:disabled{
+    background: transparent;
+ 
+}
+.upper input{
+    border-bottom: 2px solid black;
+}
+ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    border: 1.2px solid rgb(255, 253, 253);
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+}
+button:focus{
+    outline: none;
+   
+}
+button:hover{
+    background-color: #00000017;
+}
+
+
+
+   
