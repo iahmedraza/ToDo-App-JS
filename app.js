@@ -1,8 +1,8 @@
 
 
 function addItem(a){
-    var inp = a.parentNode.childNodes[1].value
-    if(inp != ''){
+    var inpt = a.parentNode.childNodes[1].value
+    if(inpt != ''){
     var additem =  document.getElementById('addItemInput')
     var itemList = document.getElementById('itemList')
     var li = document.createElement('li')
@@ -34,7 +34,7 @@ function addItem(a){
     li.appendChild(detBtn)
 
     //Clear Input 
-    inp=''
+    a.parentNode.childNodes[1].value=''
     }else{
         alert('Empty cant be added')
     }
